@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block title %}探索精彩活動 - EventMaster{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container animate-up">
+        <h1>探索下一個精彩體驗</h1>
+        <p>從專業講座到社群聚會，這裡有您想參加的所有有趣活動。簡單三步，輕鬆報名。</p>
+    </div>
+</section>
+
+<section class="activities-section">
+    <div class="container">
+        <div class="activity-grid" id="activity-list">
+            <!-- Mock Activity 1 -->
+            <div class="activity-card" id="activity-1">
+                <div class="card-img" style="background: linear-gradient(135deg, #6366f1, #a855f7);">
+                    <span class="status-badge">報名中</span>
+                </div>
+                <div class="card-body">
+                    <h3>2026 AI 應用開發者大會</h3>
+                    <div class="meta-info">
+                        <span>📍 台北國際會議中心</span>
+                    </div>
+                    <div class="meta-info">
+                        <span>📅 2026-05-15 09:00</span>
+                    </div>
+                    <div class="slots-info">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                        <span>150/200</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mock Activity 2 -->
+            <div class="activity-card" id="activity-2">
+                <div class="card-img" style="background: linear-gradient(135deg, #10b981, #3b82f6);">
+                    <span class="status-badge">熱賣中</span>
+                </div>
+                <div class="card-body">
+                    <h3>心靈舒壓：午後冥想工作坊</h3>
+                    <div class="meta-info">
+                        <span>📍 綠意共享空間</span>
+                    </div>
+                    <div class="meta-info">
+                        <span>📅 2026-05-20 14:00</span>
+                    </div>
+                    <div class="slots-info">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%;"></div>
+                        </div>
+                        <span>10/50</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mock Activity 3 -->
+            <div class="activity-card" id="activity-3">
+                <div class="card-img" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+                    <span class="status-badge">即將截止</span>
+                </div>
+                <div class="card-body">
+                    <h3>區塊鏈技術應用論壇 2026</h3>
+                    <div class="meta-info">
+                        <span>📍 線上直播活動</span>
+                    </div>
+                    <div class="meta-info">
+                        <span>📅 2026-05-10 19:00</span>
+                    </div>
+                    <div class="slots-info">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%;"></div>
+                        </div>
+                        <span>475/500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
